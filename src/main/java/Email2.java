@@ -61,10 +61,10 @@ public class Email2 {
         message.setRecipient(MimeMessage.RecipientType.TO, new InternetAddress(receiveMail, "帅气先生", "UTF-8"));
 
         // 4. Subject: 邮件主题（标题有广告嫌疑，避免被邮件服务器误认为是滥发广告以至返回失败，请修改标题）
-        message.setSubject("TEXT测试 不加附件", "UTF-8");
+        message.setSubject("66666666666666666666", "UTF-8");
 
         // 5. Content: 邮件正文（可以使用html标签）（内容有广告嫌疑，避免被邮件服务器误认为是滥发广告以至返回失败，请修改发送内容）
-        message.setContent("hello，我是不是贼拉拉帅   帅的不要不要的那种   TEXT。。。", "text/html;charset=UTF-8");
+        message.setContent("55555555555555555555", "text/html;charset=UTF-8");
 
         // 6. 设置发件时间
         message.setSentDate(new Date());
