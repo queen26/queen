@@ -64,7 +64,7 @@ public class Email2 {
         message.setSubject("666666688888886666", "UTF-8");
 
         // 5. Content: 邮件正文（可以使用html标签）（内容有广告嫌疑，避免被邮件服务器误认为是滥发广告以至返回失败，请修改发送内容）
-        message.setContent("55555555555555555666666666666666666666666655555555555555555555555555555555555555555555", "text/html;charset=UTF-8");
+        message.setContent("555555555559999999999999999999999999999999999999999995555555555555", "text/html;charset=UTF-8");
 
         // 6. 设置发件时间
         message.setSentDate(new Date());
